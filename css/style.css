@@ -242,6 +242,7 @@ p {
 }
 .marker {
     position: absolute;
+    cursor: pointer;
 }
 .marker:hover {
     background-image: url(../image/markerF.png);
@@ -263,4 +264,86 @@ p {
 .four {
     top: 410px;
     left: 276px;
+}
+
+.git {
+    position: absolute;
+    top: 167px;
+    left: 269px;
+}
+
+
+.showcase {
+    flex-direction: row;
+}
+.showcase-side {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+.lot {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    background: #EDEDED;
+}
+.top {
+    margin-bottom: 20px;
+}
+.lot-image {
+    margin: 0 auto;
+}
+.lot-text {
+    flex-direction: column;
+}
+.lot-text > * + * {
+    margin-top: 9px;
+}
+.name-text-smal {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #272727;
+}
+.info-text-smal {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: #757575;
+}
+.price-text-smal {
+    font-family: 'Segoe UI';
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #E2B67A;
+}
+.showcase-center {
+    background-image: url(../image/r5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33%;
+    padding: 20px;
+    align-items: flex-end;
+}
+.white {
+    color: white;
+}
+.Whisper {
+color: #E7E7E7;
+}
+.Tacao {
+    color: #EFC58B;
 }
