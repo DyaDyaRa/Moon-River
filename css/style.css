@@ -1,0 +1,266 @@
+div {
+    display: flex;
+}
+
+
+body {
+    width: 100%;
+    background: #E5E5E5;
+}
+.mid {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* fonts */
+
+h1 {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 71px;
+    letter-spacing: 0.03em;
+    color: #272727;
+}
+h2 {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    color: #FFFFFF;
+
+}
+input::-webkit-input-placeholder {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 0.4);
+}
+.name-text {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.info-text {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: #C2C2C2;
+}
+.price-text {
+    font-family: 'Segoe UI';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #EFC58B;
+}
+p {
+    z-index: 10;
+}
+
+/* Header */
+
+
+.header {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.control {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.like-shop > * + * {
+    margin-left: 40px;
+}
+.byrger {
+}
+
+
+/* main */
+
+.title {
+    flex-direction: column;
+    margin-top: 280px;
+}
+.watch-coll {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.HIGH-JEWELRY {
+    flex-direction: column;
+}
+.Watch-collection {
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 66px;
+}
+.coll {
+    width: 130px;
+    height: 1px;
+    background: #272727;
+    margin: 0 38px 0 130px;
+}
+.ring {
+    margin-right: 230px;
+}
+
+.lang-price {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 367px;
+}
+.lang {
+    align-items: flex-end;
+}
+.info-price {
+    flex-direction: column;
+    align-items: flex-end;
+}
+.info-price > * + * {
+    margin-top: 9px;
+}
+.background-dark {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #272727;
+    width: 40%;
+    height: 1002px;
+    z-index: -10;
+}
+
+.for-men-wommen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.for-men {
+    background-image: url(../image/men.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 49%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+.for {
+    width: 130px;
+    height: 1px;
+    background: #FFFFFF;
+    z-index: 10;
+}
+.for-h1, .for-a {
+    color: #FFFFFF;
+    margin-bottom: 23px;
+    z-index: 10;
+}
+.overlay {
+    position: absolute;
+    width: 49%;
+    height: 100%;
+    background: rgba(39, 39, 39, 0.4);
+}
+.for-women {
+    background-image: url(../image/women.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 49%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.map {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 20px 0;
+}
+.container {
+    width: 50%;
+    height: 604px;
+    background: #272727;
+    justify-content: center;
+    align-items: center;
+}
+.search-shop {
+    flex-direction: column;
+    justify-content: center;
+}
+.map-img {
+    background-image: url(../image/map.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 730px;
+    height: 604px;
+    position: relative;
+}
+.search-text {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.email-btn, .email-input {
+    border: none;
+    background: transparent;
+}
+.email-input {
+    color: white;
+    width: 100%;
+}
+.marker {
+    position: absolute;
+}
+.marker:hover {
+    background-image: url(../image/markerF.png);
+}
+
+
+.one {
+    top: 143px;
+    left: 93px;
+}
+.two {
+    top: 167px;
+    left: 269px;
+}
+.three {
+    top: 228px;
+    left: 382px;
+}
+.four {
+    top: 410px;
+    left: 276px;
+}
