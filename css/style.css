@@ -347,3 +347,150 @@ color: #E7E7E7;
 .Tacao {
     color: #EFC58B;
 }
+
+
+.dark {
+    background: #272727;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    margin-top: 20px;
+}
+.dark > * + * {
+    margin-top: 80px;
+}
+.we-social {
+    flex-direction: column;
+    width: 80%;
+}
+.container-slider {
+}
+.contacts-scroll {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.contacts > * + * {
+    margin-left: 20px;
+}
+.facebook {
+    text-align: center;
+}
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #DADADA;
+}
+.scroll {
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: row;
+}
+.woomen-blue {
+    width: 50%;
+}
+.phone-subscribe {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 50%;
+    background: #E5E5E5;
+}
+.center {
+    margin-left: 150px;
+}
+.phone, .email-subscribe {
+    flex-direction: column;
+    justify-content: center;
+}
+.phone > * + * {
+    margin-top: 30px;
+}
+.phone-text {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 28px;
+    color: #959595;
+}
+.subscribe-news {
+    display: flex;
+    margin-top: 30px;
+}
+.subscribe-input::-webkit-input-placeholder {
+    color: #272727;
+}
+.subscribe-input {
+    width: 86%;
+}
+
+/* footer */
+footer {
+    background: #272727;
+}
+
+.footer {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0 90px 0;
+}
+.info-website, .info-website-ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-website-text {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.logo-phone-email {
+    width: 100%;
+    margin-top: 90px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-white {
+    background-image: url(../image/logo-white.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 30px;
+}
+.phone-email-footer > * + * {
+    margin-left: 80px;
+}
+.phone-hot-line {
+    flex-direction: column;
+}
+.phone-hot-line > * + * {
+    margin-top: 15px;
+}
+.app {
+    flex-direction: row;
+    width: 65%;
+    margin-top: 16px;
+}
+.apple,.android {
+    width: 90px;
+    height: 30px;
+    margin-right: 15px;
+}
