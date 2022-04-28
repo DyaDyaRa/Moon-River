@@ -372,6 +372,7 @@ color: #E7E7E7;
 }
 .slider-line {
     position: relative;
+    overflow: hidden;
 }
 .slider-img {
     width: 100%;
