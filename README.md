@@ -13,6 +13,7 @@ Link:https://www.figma.com/file/h8noBnTMtXKEm5Prwm59UN/Moon-River?node-id=1%3A17
 
 24.04.2022 - завершёный макет но без слайдера. commit 2.
 
+28.04.2022 - Исправления ошибок W3C. commit 3.
 
 
 
@@ -20,3 +21,5 @@ Changes:
 04/22/2022 - Getting started. commit 1.
 
 04/24/2022 - completed layout but without slider. commit 2.
+
+04/28/2022 - W3C bug fixes. commit 3.
